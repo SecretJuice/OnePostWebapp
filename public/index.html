@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+  // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyC4mQ2wihC2S61rNE0m04Ppmu2Q48U3wEM",
+        authDomain: "one-post-webapp.firebaseapp.com",
+        projectId: "one-post-webapp",
+        storageBucket: "one-post-webapp.appspot.com",
+        messagingSenderId: "950299739788",
+        appId: "1:950299739788:web:84be9051929796cd7d1da9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="index.js" defer></script>
+
+    <title>Just One Post</title>
+</head>
+<body>
+    <h1>
+        Just One Post
+    </h1>
+    <h2>
+        Yeetombolis
+    </h2>
+    <form action="/api" method="POST">
+        <input type="text" name = "username" placeholder="Username" required>
+        <input type="text" name = "post" placeholder="Enter your message here" required>
+
+        <button type="submit">Post</button>
+    </form>
+</body>
+</html>
