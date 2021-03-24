@@ -38,11 +38,31 @@
     <h2>
         Yeetombolis
     </h2>
-    <form action="/api" method="POST">
-        <input type="text" name = "username" placeholder="Username" required>
-        <input type="text" name = "post" placeholder="Enter your message here" required>
 
-        <button type="submit">Post</button>
-    </form>
+    <section id="whenSignedOut">
+
+        <button id="signInButton">Sign In With Google</button>
+
+    </section>
+
+    <section id="whenSignedIn" hidden="true">
+
+        <div id="userDetails"></div>
+
+        <button id="signOutButton">Sign Out</button>
+
+        <input type="text" id="postInput" placeholder="Enter your message here" required>
+
+        <button id="postButton">Post</button>
+
+    </section>
+
+    <section id="postList">
+
+        
+
+    </section>
+
+    
 </body>
 </html>
