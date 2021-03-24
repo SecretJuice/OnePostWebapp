@@ -21,7 +21,7 @@ let unsubscribe = postCollectionReference.limit(20).orderBy("timestamp", "desc")
 
     const posts = querySnapshot.docs.map(doc => {
 
-        return `<li>Post by UID: ${ doc.data().uid } -- Content: ${ doc.data().message }</li>`
+        return `<div class="post">Post by UID: ${ doc.data().uid } -- Content: ${ doc.data().message }</div>`
 
     });
 
