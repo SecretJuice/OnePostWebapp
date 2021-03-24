@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    height: 100%;
+    background-color: rgb(40, 39, 41);
+    color: #f8f8ff;
+}
+
+h1 {
+    align-self: center;
+    font-style: italic;
+    color: #f8f8ff;
+  }
