@@ -15,3 +15,19 @@ h1 {
     font-style: italic;
     color: #f8f8ff;
   }
+
+div.post{
+    margin: 10px;
+}
+
+.post {
+    border: 2px solid rgb(209, 203, 214);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+#postList{
+    margin: 10px;
+}
